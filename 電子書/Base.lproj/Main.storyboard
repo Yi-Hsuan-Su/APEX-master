@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="jNa-n5-8Z1">
+            <objects>
+                <navigationController id="Is5-WF-erI" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2b2-ep-PK7">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="M03-nD-hmY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xV7-Vh-LTX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2158" y="-1076"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="AUe-YJ-HCP">
+            <objects>
+                <tableViewController id="ecW-L1-fJV" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="N4w-ub-AFG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="LBF-0e-Aag">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="112" id="FRo-yh-iJk">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FRo-yh-iJk" id="p9f-m4-Bv4">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="111.66666666666667"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="BANGALORE" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="9S4-vv-oll">
+                                                    <rect key="frame" x="175" y="33" width="229" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BANGALORE" translatesAutoresizingMaskIntoConstraints="NO" id="tD2-Sm-5zt">
+                                                    <rect key="frame" x="7" y="5" width="160" height="101"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="cr0-p1-hlq" kind="show" id="fSJ-u8-3YC"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="112" id="0wz-pb-VWq">
+                                        <rect key="frame" x="0.0" y="112" width="414" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0wz-pb-VWq" id="yjp-U7-Ar1">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="111.66666666666667"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloodhound" translatesAutoresizingMaskIntoConstraints="NO" id="sbn-qd-GHU">
+                                                    <rect key="frame" x="7" y="5" width="160" height="101"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="BLOODHOUND" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="gfW-SV-N39">
+                                                    <rect key="frame" x="166" y="33" width="248" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="d3o-Yo-VwC" kind="show" id="YtH-3i-a2v"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="112" id="i1U-Vd-Z2D">
+                                        <rect key="frame" x="0.0" y="224" width="414" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i1U-Vd-Z2D" id="tZr-YF-K3p">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="111.66666666666667"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="CAUSTIC" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="pCS-u1-5Da">
+                                                    <rect key="frame" x="175" y="33" width="229" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CAUSTIC" translatesAutoresizingMaskIntoConstraints="NO" id="jSE-oc-aga">
+                                                    <rect key="frame" x="7" y="5" width="160" height="101"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="v7i-qb-beQ" kind="show" id="pPd-jW-8Sf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="112" id="GjN-O5-EPB">
+                                        <rect key="frame" x="0.0" y="336" width="414" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GjN-O5-EPB" id="NKf-Xe-9SY">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="111.66666666666667"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="GIBRALTAR" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="5NU-nB-Fpi">
+                                                    <rect key="frame" x="175" y="33" width="229" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GIBRALTAR" translatesAutoresizingMaskIntoConstraints="NO" id="jR5-d3-HgN">
+                                                    <rect key="frame" x="7" y="5" width="160" height="101"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Ksi-he-PL4" kind="show" id="7KU-6r-Ci0"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="112" id="hqD-PH-USq">
+                                        <rect key="frame" x="0.0" y="448" width="414" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hqD-PH-USq" id="crB-pB-Qxr">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="111.66666666666667"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LIFELINE" translatesAutoresizingMaskIntoConstraints="NO" id="TiC-nT-yWn">
+                                                    <rect key="frame" x="7" y="5" width="160" height="101"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="LIFELINE" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="zPy-9P-z4o">
+                                                    <rect key="frame" x="175" y="33" width="229" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="FsU-7X-TJ3" kind="show" id="gUv-hd-QPc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="112" id="9k3-IK-yfi">
+                                        <rect key="frame" x="0.0" y="560" width="414" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9k3-IK-yfi" id="csg-Ze-dAm">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="111.66666666666667"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="MIRAGE" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="dSr-1g-UYE">
+                                                    <rect key="frame" x="175" y="33" width="229" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MIRAGE" translatesAutoresizingMaskIntoConstraints="NO" id="dbJ-Hc-OpU">
+                                                    <rect key="frame" x="7" y="5" width="160" height="101"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="AkN-wl-kFd" kind="show" id="0MF-DO-SvM"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="112" id="X8n-iB-gwF">
+                                        <rect key="frame" x="0.0" y="672" width="414" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="X8n-iB-gwF" id="irH-gZ-VFR">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="111.66666666666667"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="OCTANE" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="V7M-QP-BuJ">
+                                                    <rect key="frame" x="175" y="33" width="229" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OCTANE" translatesAutoresizingMaskIntoConstraints="NO" id="P8Q-sL-73Z">
+                                                    <rect key="frame" x="7" y="5" width="160" height="101"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="jp5-o6-36D" kind="show" id="j8d-sP-6o1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="112" id="Ujy-9V-SaY">
+                                        <rect key="frame" x="0.0" y="784" width="414" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ujy-9V-SaY" id="PCT-HG-hxK">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="111.66666666666667"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="PATHFINDER" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="NZk-pw-WMX">
+                                                    <rect key="frame" x="175" y="33" width="229" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PATHFINDER" translatesAutoresizingMaskIntoConstraints="NO" id="mBI-mG-Q2f">
+                                                    <rect key="frame" x="7" y="5" width="160" height="101"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="LsG-NT-kys" kind="show" id="wV9-xY-n9L"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="112" id="DBQ-IN-fc1">
+                                        <rect key="frame" x="0.0" y="896" width="414" height="112"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DBQ-IN-fc1" id="iFc-AI-5aO">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="111.66666666666667"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="WRAITH" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="9Ey-KM-xaC">
+                                                    <rect key="frame" x="175" y="33" width="229" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WRAITH" translatesAutoresizingMaskIntoConstraints="NO" id="6J0-NR-zqx">
+                                                    <rect key="frame" x="7" y="5" width="160" height="101"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="HT0-TA-6n2" kind="show" id="WiD-0y-ayV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="ecW-L1-fJV" id="6x1-Kl-czY"/>
+                            <outlet property="delegate" destination="ecW-L1-fJV" id="RiB-ri-tXE"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="M5L-NT-yxO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FgG-cB-HrG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2668.1159420289855" y="-1410.2678571428571"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4rK-gM-Nrn">
+            <objects>
+                <viewController id="cr0-p1-hlq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rVe-LG-unv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BANGALORE" translatesAutoresizingMaskIntoConstraints="NO" id="4xr-FK-UUT">
+                                <rect key="frame" x="0.0" y="88" width="414" height="278"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hvb-nf-5MW">
+                                <rect key="frame" x="20" y="381" width="374" height="467.33333333333331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">BANGALORE
+Don’t be fooled, despite her rugged exterior and military precision, Anita Williams has a more noble cause for entering the Apex Games. Separated from her family during a military mission, she’s raising the funds to fight her way back.
+
+Bangalore is one of two damage archetypes and is built to excel in taking out large groups of enemies.
+
+Passive Ability: Double Time
+When taking fire from enemies, Bangalore will move at an increased pace for a brief amount of time. For a game that’s already fast-paced, this ability gives you a speedy edge.
+
+Tactical Ability: Smoke Launcher
+This ability allows Bangalore to hurl a smoke grenade that explodes on impact at her enemies. Whether you’re escaping from a group of foes that have got the drop on you, or you’re looking to turn the tables, Bangalore’s smoke launcher will come in handy.
+
+Ultimate Ability: Rolling Thunder
+Useful if you’re in a pinch or weathering a match’s latter moments, Bangalore’s ultimate ability sends an artillery strike across the landscape.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="FMC-T2-hGQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tm2-SV-c02" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3573.913043478261" y="-2430.1339285714284"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="tGd-xv-61r">
+            <objects>
+                <tableViewController id="BZr-fB-cfq" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jtt-0q-40J">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="77e-kh-acP">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="149" id="Jep-cx-iQZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jep-cx-iQZ" id="KvF-uN-mGl">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="R-301 Carbine" translatesAutoresizingMaskIntoConstraints="NO" id="xRm-F0-JpX">
+                                                    <rect key="frame" x="7" y="0.0" width="192" height="138"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="R-301 Carbine" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="ZqY-yd-faf">
+                                                    <rect key="frame" x="214" y="49" width="187" height="37"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="uvS-9u-BlF" kind="show" id="iQK-TC-MtQ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="149" id="AdE-uA-2yR">
+                                        <rect key="frame" x="0.0" y="149" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AdE-uA-2yR" id="b8J-MA-eZG">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Havoc" translatesAutoresizingMaskIntoConstraints="NO" id="N9b-Ak-c8L">
+                                                    <rect key="frame" x="7" y="0.0" width="192" height="138"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Havoc" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="XhR-Os-pb9">
+                                                    <rect key="frame" x="214" y="49" width="187" height="37"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="MDq-4d-lsH" kind="show" id="1MA-Qk-FKY"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="149" id="LXe-TF-Rc9">
+                                        <rect key="frame" x="0.0" y="298" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LXe-TF-Rc9" id="fgd-mV-gFn">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VK-47 Flatline " translatesAutoresizingMaskIntoConstraints="NO" id="kCz-FD-Pjo">
+                                                    <rect key="frame" x="7" y="0.0" width="192" height="138"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="VK-47 Flatline " textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="wvb-6k-5Oj">
+                                                    <rect key="frame" x="214" y="49" width="187" height="37"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="2Ep-dM-DAa" kind="show" id="nxb-LM-Ps4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="149" id="aek-6p-h4d">
+                                        <rect key="frame" x="0.0" y="447" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aek-6p-h4d" id="mxX-ig-s7N">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hemlock Burst AR " translatesAutoresizingMaskIntoConstraints="NO" id="mhv-nt-TnU">
+                                                    <rect key="frame" x="7" y="0.0" width="192" height="138"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hemlock Burst AR " textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="7eE-yF-Y51">
+                                                    <rect key="frame" x="214" y="49" width="189" height="33"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="149" id="StR-B9-H8P">
+                                        <rect key="frame" x="0.0" y="596" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="StR-B9-H8P" id="f6N-uO-WzE">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="R-99 SMG" translatesAutoresizingMaskIntoConstraints="NO" id="shU-RH-0wv">
+                                                    <rect key="frame" x="7" y="0.0" width="192" height="138"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="R-99 SMG" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="wft-o8-dvU">
+                                                    <rect key="frame" x="214" y="49" width="187" height="37"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="oy3-gf-gr3" kind="show" id="ef1-yi-I8r"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="149" id="HeA-7z-m8Q">
+                                        <rect key="frame" x="0.0" y="745" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HeA-7z-m8Q" id="0Rm-3c-DpZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Alternator SMG " translatesAutoresizingMaskIntoConstraints="NO" id="1ul-WX-QlJ">
+                                                    <rect key="frame" x="7" y="0.0" width="192" height="138"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Alternator SMG " textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="FuH-XR-Ne2">
+                                                    <rect key="frame" x="214" y="49" width="189" height="37"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="IWm-vP-mGm" kind="show" id="pnA-hM-BT2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="149" id="YxX-Q3-8WQ">
+                                        <rect key="frame" x="0.0" y="894" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YxX-Q3-8WQ" id="mIP-bo-gGK">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="148.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Prowler Burst PDW " translatesAutoresizingMaskIntoConstraints="NO" id="aW7-F8-gQr">
+                                                    <rect key="frame" x="7" y="0.0" width="192" height="138"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Prowler Burst PDW " textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="U5W-qh-rKU">
+                                                    <rect key="frame" x="214" y="49" width="187" height="37"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="etH-n6-TKL" kind="show" id="zgN-T1-zI0"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="BZr-fB-cfq" id="aRc-Te-2xN"/>
+                            <outlet property="delegate" destination="BZr-fB-cfq" id="gTl-nI-kOM"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="WD3-BT-fNl"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O93-3c-s3s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2700" y="-595.3125"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oPZ-rF-SmY">
+            <objects>
+                <viewController id="uvS-9u-BlF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wf6-bH-HRC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="R-301 Carbine" translatesAutoresizingMaskIntoConstraints="NO" id="r64-Ox-S9m">
+                                <rect key="frame" x="-10" y="88" width="424" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="myZ-jq-QjV">
+                                <rect key="frame" x="20" y="350" width="374" height="463"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">A rapid fire, full-auto assault rifle that can also fire in single-shot mode. It’s highly accurate, with a recoil profile that spreads vertically up and slightly to the right. You get 18 bullets per magazine.
+
+Damage: 14 for a body shot, 28 for a headshot.
+Attachments: Mag, optic, stock, and barrel attachments.
+Ammo type: Light ammo</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="amz-8a-PI7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kFw-HD-cPz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3757" y="-933"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="SLf-8k-pZ1">
+            <objects>
+                <tabBarController id="ro6-2M-zRM" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8SG-6P-T5N">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="PJJ-SC-7YP" kind="relationship" relationship="viewControllers" id="KHT-Yo-DbF"/>
+                        <segue destination="qF3-5I-9R6" kind="relationship" relationship="viewControllers" id="8Fd-Yk-I7S"/>
+                        <segue destination="hxb-14-ToV" kind="relationship" relationship="viewControllers" id="t9E-dd-Za1"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i7O-6L-aSa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="322" y="-1123"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="電子書" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="main" translatesAutoresizingMaskIntoConstraints="NO" id="N8k-9w-YRn">
+                                <rect key="frame" x="0.0" y="0.0" width="432" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BI1-zB-mr6">
+                                <rect key="frame" x="155" y="756" width="105" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="PRESS">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ro6-2M-zRM" kind="show" id="s4o-cF-y9E"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-741" y="-1052"/>
+        </scene>
+        <!--Hero-->
+        <scene sceneID="jzq-tV-j6H">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PJJ-SC-7YP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Hero" id="qMF-Ff-aW5"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="F1o-tT-JAt">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ecW-L1-fJV" kind="relationship" relationship="rootViewController" id="zKv-9g-mwl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="roI-DJ-RDb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1757.9710144927537" y="-1410.2678571428571"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yNy-Ex-fmu">
+            <objects>
+                <viewController id="d3o-Yo-VwC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t33-l2-8OQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloodhound" translatesAutoresizingMaskIntoConstraints="NO" id="vCa-n6-fVz">
+                                <rect key="frame" x="0.0" y="88" width="414" height="278"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JGQ-dT-VOR">
+                                <rect key="frame" x="20" y="381" width="374" height="604.33333333333337"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">BLOODHOUND
+The identity of Bloodhound is unknown. Rumours range from the crow-clad hunter being fabulously wealthy to living the life of a slave in a past life.
+
+Regardless, Bloodhound is known as the technological tracker, stemming from its hunter playstyle. If you love the thrill of the hunt and are keen to take to the Outlands to eliminate your prey, then the Bloodhound may be for you.
+
+Passive Ability: Tracker
+Bloodhound’s passive ability allows this hunter to see the footprints left behind by enemy players. Use it to get the drop on foes and land that all-important first shot.
+
+Tactical Ability: Eye of the Allfather
+This ability will be familiar to anyone familiar with Overwatch’s Widowmaker: it will reveal hidden enemies, traps, and clues throughout the terrain. It also proves handy for lining up headshots that’ll leave any hero in a fit of rage.
+
+Ultimate Ability: Beast of Hunt
+A good way to turn everything up to 11, Bloodhound’s ultimate lets you move faster and highlight your prey.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6Mc-vy-EfB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D1t-DU-Vw8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3623" y="-1731"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xIz-TJ-hK4">
+            <objects>
+                <viewController id="FsU-7X-TJ3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ffL-88-EJJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LIFELINE" translatesAutoresizingMaskIntoConstraints="NO" id="See-Nj-8xq">
+                                <rect key="frame" x="0.0" y="88" width="414" height="278"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KCy-Ek-aVQ">
+                                <rect key="frame" x="20" y="381" width="374" height="564"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">LIFELINE
+Ajay Che is a healer with a heavy conscience. Once part of a family of wealthy war profiteers, Che left once she truly realised the extent of her kin’s repugnant business.
+
+Her loadout reflects that desire to heal and repair the damage done by her family: all of Che’s winnings from the Apex Games go towards good causes.
+
+Passive Ability: Combat Medic
+Che’s passive allows her to revive knocked teammates faster, provided a shield wall is there to protect her. Healing items are also used 25% faster.
+
+Tactical Ability: D.O.C. Heal Drone
+Your Tactical Ability summons a robot called the Drone of Compassion, which automatically heals nearby teammates over a brief period.
+
+Ultimate Ability: Care Package
+Best used between fights or towards the end of a game, Che’s Ultimate Ability will summon a drop pod packed with high-quality defensive gear.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="EoC-GT-Spu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q62-RS-7RC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4671" y="-2449"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3sE-7g-cRb">
+            <objects>
+                <viewController id="v7i-qb-beQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R5X-1j-CHw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CAUSTIC" translatesAutoresizingMaskIntoConstraints="NO" id="aOO-vb-3um">
+                                <rect key="frame" x="0.0" y="88" width="414" height="278"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vnZ-NQ-Jjs">
+                                <rect key="frame" x="21" y="381" width="372" height="482.66666666666669"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">CAUSTIC
+Once a scientist named Alexander Nox who worked for the Frontier’s leading pesticide gases manufacturer, he would be changed irrevocably after deciding to test a stronger formula on himself. Each to their own. But, for that unfortunate reason, Caustic is a tank of an Apex Legends character, and he’s is built around poison and gas attacks.                               Caustic’s passive ability allows him to see through his gas attacks. We only wish our partners could do the same. A subtle skill, but no doubt one that will give an edge against the foes you mean to disorientate.
+
+Tactical Ability: Nox gas trap
+This gas-filled canister will only detonate when shot or triggered by enemies.
+
+Ultimate Ability: Nox Gas Grenade
+Very much a larger scale version of his tactical ability, Caustic’s Nox Gas Grenade sends a large puff of toxic smoke across a vast area.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="R79-0B-Q1d"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dOi-FK-Nq6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5655" y="-2450"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dt2-MH-iTZ">
+            <objects>
+                <viewController id="Ksi-he-PL4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hja-Ow-7G9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GIBRALTAR" translatesAutoresizingMaskIntoConstraints="NO" id="rPM-bv-7sg">
+                                <rect key="frame" x="0.0" y="88" width="414" height="278"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z1X-uA-heh">
+                                <rect key="frame" x="20" y="381" width="374" height="604.33333333333337"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">GIBRALTAR
+Gibraltar likes to protect people as much as he likes to bring the pain. He’s known as the wild, but gentle giant for good reason: his father lost an arm saving him and his boyfriend from mudslide after the pair stole his bike and went joy riding.
+
+This Apex Legends character is a tank whose sense of responsibility and protection to atone for his mistakes is unmistakable.
+
+Passive Ability: Gun Shield
+When aiming down sights with Gibraltar, this ability grants you a gun shield that blocks incoming fire.
+
+Tactical Ability: Dome of Protection
+Useful for blocking doorways or providing some quick protection, Gibraltar’s dome-shaped shield ensures the safety of your squad for 15 seconds.
+
+Ultimate Ability: Defensive Bombardment
+Much like Bangalore’s Rolling Thunder, Gibraltar’s Ultimate Ability allows him to call for air support. Defensive Bombardment, however, is more of a concentrated mortar strike on a marked position.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="qX0-ji-VUr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EBe-He-mBF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4670" y="-1731"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XZz-CO-ST2">
+            <objects>
+                <viewController id="AkN-wl-kFd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C9b-YL-O0I">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MIRAGE" translatesAutoresizingMaskIntoConstraints="NO" id="hwD-1r-tgG">
+                                <rect key="frame" x="0.0" y="88" width="414" height="278"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cxS-xw-qhw">
+                                <rect key="frame" x="20" y="381" width="374" height="624.66666666666663"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">MIRAGE
+Another member of the eclectic cast of Apex Legends heroes, Elliot Witt distinguishes himself by emphasising stealth tactics over out-and-out physical prowess. Someone who likes to out-Witt his opponents, if you will.              Like Caustic, Mirage is not unlocked from the start and costs either 12000 Legend Tokens or 750 Apex Coins.
+
+Passive Ability: Encore!
+Whenever Mirage is struck down by an enemy, his passive means he’ll automatically deploy a decoy while cloaking himself for five seconds. It may prove handy if Wraith or Bloodhound gets the drop on you.
+
+Tactical Ability: Psyche Out
+Stuck in a tense face-off where no one is brave enough to make the first move? Then Psyche Out may prove handy for, well, psyching your opponent out as Mirage sends another one of his decoy’s running off in a chosen direction to confuse the opposition.
+
+Ultimate Ability: Vanishing Act
+What’s better than one decoy? If your answer is many, then you may get a kick out of Mirage’s Vanishing Act. This ultimate sends a team of decoys out to distract enemies and cloaks you.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="yIP-2h-yRh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6iB-51-i4d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5712" y="-1731"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="msv-1b-ZKY">
+            <objects>
+                <viewController id="jp5-o6-36D" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LeC-fH-r47">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OCTANE" translatesAutoresizingMaskIntoConstraints="NO" id="sWT-Mo-hYU">
+                                <rect key="frame" x="0.0" y="88" width="414" height="278"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZTh-lk-KQ4">
+                                <rect key="frame" x="20" y="381" width="374" height="624.66666666666663"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">OCTANE
+This zippy chap used to belong to a family of wealth and fortune before turning to a life of stunts to abate his boredom. That decision cost him his legs after he used a grenade to complete a speed run, which is a subtle nod to Titanfall 2 speedrunner Cash Mayo – who used the same tactic to run the gauntlet in 12 seconds.
+
+Octane has a lot in common in Wraith in that he is a damage-dealing character who is built to flank rather than engage head-on.
+
+Passive Ability: Swift Mend
+Octane will gradually recover his health over time, which is handy for the number of scraps he gets into.
+
+Tactical Ability: Stim
+After injecting himself with a stimulant, Octane will move considerably faster at the cost of some of his health. It’s a good thing, then, that he can gradually recover that health over time unless someone is shooting at him.
+
+Ultimate Ability: Launch Pad
+With the simple toss of a Launch Pad, Octane can propel himself, and anyone else on the map of that matter, off to great heights.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ItW-39-1lx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JXE-SB-dx7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6809" y="-2430"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yRw-rQ-qMO">
+            <objects>
+                <viewController id="LsG-NT-kys" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Avb-Ye-Lb3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PATHFINDER" translatesAutoresizingMaskIntoConstraints="NO" id="k7U-wD-9SD">
+                                <rect key="frame" x="0.0" y="88" width="414" height="278"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qs5-W1-1Qa">
+                                <rect key="frame" x="20" y="381" width="374" height="665.33333333333337"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">PATHFINDER
+Pathfinder is forward in his thinking as well as in what he says. Apparently, he booted up over a decade ago in an abandoned laboratory and has been on the lookout for his creator ever since.
+
+Pathfinder is a medic, but his kit differs from Lifeline in the sense that it’s intended to help you explore and traverse terrain, rather than to heal.
+
+Passive Ability: Insider Knowledge
+As any battle royale player can attest, the genre’s signature shrinking ring defines your next move. Helping this considerably is Pathfinder’s Insider Knowledge passive ability: it allows you to scan a survey beacon to reveal the circle’s next location.
+
+Tactical Ability: Grappling Hook
+Is the pesky terrain getting in you way of escaping the ring? Pathfinder’s Grappling Hook lets you zip away and close large distances swiftly.
+
+
+Ultimate Ability: Zipline Gun
+They say you should never leave a man behind. Don’t be selfish and use your Zipline Gun to create an escape route for the rest of your team.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vWC-jZ-d9L"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dLY-m9-NRO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6900" y="-1731"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="j0n-SJ-mwb">
+            <objects>
+                <viewController id="HT0-TA-6n2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jYX-2F-uRZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WRAITH" translatesAutoresizingMaskIntoConstraints="NO" id="b5V-3S-55e">
+                                <rect key="frame" x="0.0" y="88" width="414" height="278"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ReS-L6-zgK">
+                                <rect key="frame" x="204" y="381" width="10" height="36.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JU5-TN-O1P">
+                                <rect key="frame" x="20" y="381" width="374" height="1236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">WRAITH
+We know little of the mysterious Wraith apart from the fact that she woke in a detention facility years ago with voices in her head. Once she started listening to them, she acquired powers that allow her to jump between dimensions.
+
+Much like Mirage, this interdimensional skirmisher is a DPS Apex Legends character, but she’s more about stealthy play than going in guns blazing.
+
+Passive Ability: Voices from the Void
+If an enemy team is about to get the drop on you, the friendly voice in Wraith’s head will let you know. It can be tricky to distinguish between this and your team’s comms, however.
+
+Tactical Ability: Into the Void
+Wraith’s tactical ability allows you to traverse the void without taking any damage, which means you can effectively turn invisible and not take any damage for a bit.
+
+It’s a handy tool to close the gap on the other team if you’ve looted a good shotgun. Or, if you’re anything like me, you’ve found yourself in a tricky situation and need to hightail it out of there.
+
+Ultimate Ability: Dimensional Rift
+Rather than just void walking on your tod, Dimensional Rift allows you to take your team along with you.
+
+However, first you’ll need to reach your desired destination yourself before you set up the rift for your team. It also only lasts for 60 seconds.
+
+Read more: Wall run towards the best multiplayer games
+
+And there you are, your introduction to the irrepressibly zany roster of Apex Legends characters. The vast majority of characters and the game are available right from the off, so you’re getting an awful lot of game for your download. If you’re looking for other games you can pick up while still keeping your wallet happy, check out these other free PC games you can try for nothing. Or, if Apex Legends has given you the taste for teamwork, conquer new worlds together in the best co-op games on PC. For now, we wish you the best of luck in winning as many victories as you can.
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hzk-Yp-G0P"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ct6-wr-RzR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7903" y="-2450"/>
+        </scene>
+        <!--Weapon-->
+        <scene sceneID="DU8-AU-GdA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qF3-5I-9R6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Weapon" id="fr0-8D-58y"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LHW-k1-t15">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BZr-fB-cfq" kind="relationship" relationship="rootViewController" id="PmY-H2-y1R"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="630-IN-TEl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1789.8550724637682" y="-595.3125"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Cxq-C9-iQB">
+            <objects>
+                <viewController id="MDq-4d-lsH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kgv-ax-IiP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Havoc" translatesAutoresizingMaskIntoConstraints="NO" id="EK0-3K-apF">
+                                <rect key="frame" x="-10" y="88" width="424" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Sh4-P4-cgS">
+                                <rect key="frame" x="20" y="350" width="374" height="918.33333333333337"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">The first assault rifle to use energy ammo - the Havoc has a half-second wind up time before the first bullet. The Havoc is also the first gun to have two possible hop-up attachments. The Turbocharger removes the half-second wind up, making the Havoc far more reliable in head to head duels. The Selectfire Receiver gives the Havoc a special single-shot charge mode which eats up 5 energy ammo per shot, but turns the shot into hitscan with damage fall-off—the only gun in Apex Legends with these attributes.
+
+Damage: 18 per body shot, 36 per headshot.
+Attachments: Optic, stock, and hop-up (Selectfire Reciever &amp; Turbocharger) attachments.
+Ammo type: Energy Ammo </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vuz-d8-le3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bQl-8g-xBG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4571" y="-933"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0aL-27-5JG">
+            <objects>
+                <viewController id="2Ep-dM-DAa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8v7-OX-gtB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VK-47 Flatline " translatesAutoresizingMaskIntoConstraints="NO" id="3xD-8a-Tij">
+                                <rect key="frame" x="-10" y="88" width="424" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SJH-Gd-YXY">
+                                <rect key="frame" x="20" y="350" width="374" height="450.66666666666669"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">A fully-automatic rifle that’s more powerful than the R-301 Carbine, but has more recoil. It also has a single-fire mode, and fires 20 bullets per magazine. 
+
+
+Damage: 16 per body shot, 32 per headshot.
+Attachments: Mag, optic and scope attachments.
+Ammo type: Heavy Ammo</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="NPF-Kx-6Ql"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2pA-Yc-x67" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5412" y="-933"/>
+        </scene>
+        <!--Simulator-->
+        <scene sceneID="AnJ-Uw-A5c">
+            <objects>
+                <navigationController id="hxb-14-ToV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Simulator" id="MMZ-4Y-muo"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AJS-p0-ZMo">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nuQ-uN-jYk" kind="relationship" relationship="rootViewController" id="aaB-vU-zDg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cZv-BV-RO9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1201" y="526"/>
+        </scene>
+        <!--Simulator View Controller-->
+        <scene sceneID="zuu-ck-BB8">
+            <objects>
+                <viewController storyboardIdentifier="sim1" id="nuQ-uN-jYk" customClass="SimulatorViewController" customModule="電子書" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T0m-WD-UUa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Jump" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xR-Fy-I8j">
+                                <rect key="frame" x="166" y="767" width="82" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Jump">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2Bu-TW-2QE" kind="showDetail" identifier="Send" id="xOh-xO-HSm"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qo5-OF-EkC">
+                                <rect key="frame" x="128" y="725" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Agree" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bRi-jl-04m">
+                                <rect key="frame" x="197" y="721" width="90" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="simlogo" translatesAutoresizingMaskIntoConstraints="NO" id="f5x-f1-ZVS" customClass="Sharpimage" customModule="電子書" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="88" width="414" height="413"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Survie Rate :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lct-aj-Zh3">
+                                <rect key="frame" x="38" y="545" width="159" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="iTL-Hn-3nU">
+                                <rect key="frame" x="180" y="547" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" red="1" green="0.8395210729" blue="0.04733265398" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="maximumTrackTintColor" red="1" green="0.28230834290000001" blue="0.018284893940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="myslideraction:" destination="nuQ-uN-jYk" eventType="valueChanged" id="Y0q-5B-UwY"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYI-4L-azn">
+                                <rect key="frame" x="324" y="555" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XZH-8C-3MW">
+                                <rect key="frame" x="38" y="497" width="97" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="UITextFieldDelegate" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Avx-xu-olA" customClass="input">
+                                <rect key="frame" x="120" y="499" width="148" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="nuQ-uN-jYk" id="9Aw-Zp-McW"/>
+                                </connections>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="pj8-eg-n4j">
+                                <rect key="frame" x="119" y="603" width="191" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Aggressive"/>
+                                    <segment title="Unaggressive"/>
+                                </segments>
+                            </segmentedControl>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Style :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0cM-C5-O8B">
+                                <rect key="frame" x="38" y="603" width="97" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="1BQ-QN-Mwz">
+                                <rect key="frame" x="38" y="643" width="339" height="63"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="576916500.55396104">
+                                    <!--2019-04-14 06:35:00 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" red="0.59609779792746109" green="0.1009779207586506" blue="0.0068687668540278147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="BQW-Nb-HqK"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TrQ-Jd-91t"/>
+                    <connections>
+                        <outlet property="surlabel" destination="MYI-4L-azn" id="Qq2-3d-STN"/>
+                        <outlet property="view" destination="Avx-xu-olA" id="o8M-wN-FbA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N5o-Bc-thf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2296" y="526"/>
+        </scene>
+        <!--Simulator View Controller2-->
+        <scene sceneID="CmF-E7-MZe">
+            <objects>
+                <viewController storyboardIdentifier="sim2" id="2Bu-TW-2QE" customClass="simulatorViewController2" customModule="電子書" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3cY-Nw-CK1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="PLACE" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WID-0x-Klt">
+                                <rect key="frame" x="86" y="597" width="206" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="59"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zz5-rb-eLY" customClass="Sharpimage" customModule="電子書" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="102" width="414" height="439"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4cW-2b-jFC">
+                                <rect key="frame" x="26" y="64" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="nuQ-uN-jYk" kind="showDetail" id="n4e-J9-Kpg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="OGB-aw-AXx"/>
+                    </view>
+                    <connections>
+                        <outlet property="RandomMap" destination="Zz5-rb-eLY" id="gvm-By-Uzp"/>
+                        <outlet property="place" destination="WID-0x-Klt" id="GIt-Sv-cDq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rkw-Xa-Ett" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3434.7826086956525" y="525.66964285714289"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="icB-zV-qur">
+            <objects>
+                <viewController id="oy3-gf-gr3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qVf-b6-z7g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="R-99 SMG" translatesAutoresizingMaskIntoConstraints="NO" id="iAq-kJ-7xU">
+                                <rect key="frame" x="-10" y="88" width="424" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LLy-7b-5uv">
+                                <rect key="frame" x="20" y="350" width="374" height="402.66666666666669"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">A rapid-fire, low damage SMG that fires 18 rounds per magazine. 
+
+Damage: 12 per body shot, 18 per headshot.
+Attachments: Mag, optic, stock, and barrel attachments.
+Ammo type: Light ammo 
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="eqU-lM-QUf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rky-BL-n3N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3757" y="-236"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Q3h-FQ-gao">
+            <objects>
+                <viewController id="IWm-vP-mGm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cym-PQ-nDb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Alternator SMG " translatesAutoresizingMaskIntoConstraints="NO" id="mpH-4q-Zwc">
+                                <rect key="frame" x="-10" y="88" width="424" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VJQ-Hl-4db">
+                                <rect key="frame" x="20" y="350" width="374" height="370.33333333333331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">A full-auto twin-barrel SMG with slight vertical recoil. It fires 16 rounds per magazine.
+
+Damage: 13 per body shot, 19 per headshot.
+Attachments: Mag, optic, stock, and barrel attachments.
+Ammo type: Light ammo.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Y0i-YU-NqV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KBZ-61-AMe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4670" y="-236"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="O2A-o1-cmx">
+            <objects>
+                <viewController id="IJ8-j4-aNv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="adA-uj-qhp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Alternator SMG " translatesAutoresizingMaskIntoConstraints="NO" id="a0s-kd-g20">
+                                <rect key="frame" x="-10" y="88" width="424" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="n1g-da-mlk">
+                                <rect key="frame" x="20" y="350" width="374" height="370.33333333333331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">A full-auto twin-barrel SMG with slight vertical recoil. It fires 16 rounds per magazine.
+
+Damage: 13 per body shot, 19 per headshot.
+Attachments: Mag, optic, stock, and barrel attachments.
+Ammo type: Light ammo.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rya-ko-0BJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nzj-ph-A08" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4670" y="-236"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4tC-IA-q9w">
+            <objects>
+                <viewController id="etH-n6-TKL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FC7-BD-Heh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Prowler Burst PDW " translatesAutoresizingMaskIntoConstraints="NO" id="5mC-Np-HZM">
+                                <rect key="frame" x="-10" y="88" width="424" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NOE-P1-nWP">
+                                <rect key="frame" x="20" y="350" width="374" height="370.33333333333331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">A full-auto twin-barrel SMG with slight vertical recoil. It fires 16 rounds per magazine.
+
+Damage: 13 per body shot, 19 per headshot.
+Attachments: Mag, optic, stock, and barrel attachments.
+Ammo type: Light ammo.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vKY-Sg-Scv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xDw-rD-skb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5526" y="-236"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Alternator SMG " width="650" height="365"/>
+        <image name="BANGALORE" width="900" height="506"/>
+        <image name="CAUSTIC" width="900" height="506"/>
+        <image name="GIBRALTAR" width="900" height="506"/>
+        <image name="Havoc" width="610" height="372"/>
+        <image name="Hemlock Burst AR " width="650" height="365"/>
+        <image name="LIFELINE" width="900" height="506"/>
+        <image name="MIRAGE" width="900" height="506"/>
+        <image name="OCTANE" width="900" height="506"/>
+        <image name="PATHFINDER" width="900" height="506"/>
+        <image name="Prowler Burst PDW " width="650" height="365"/>
+        <image name="R-301 Carbine" width="650" height="365"/>
+        <image name="R-99 SMG" width="650" height="365"/>
+        <image name="VK-47 Flatline " width="650" height="365"/>
+        <image name="WRAITH" width="900" height="506"/>
+        <image name="bloodhound" width="900" height="506"/>
+        <image name="main" width="564" height="1002"/>
+        <image name="simlogo" width="564" height="564"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="n4e-J9-Kpg"/>
+    </inferredMetricsTieBreakers>
+</document>
